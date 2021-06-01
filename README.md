@@ -2,9 +2,9 @@
 [![License](https://img.shields.io/:license-mit-blue.svg)](https://badges.mit-license.org)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
 
-In this paper, we use topological data analysis techniques to construct a suitable neural network classifier for time series data collected from power plants. We use representations of persistence diagrams to derive necessary preprocessing steps and visualize the large data sets. We compare architectures with deep one-dimensional convolutional layers combined with stacked long-term memories as a residual network on the task of learning sensor signals of an entire power plant according to the reference designation system for power plants. We combine three separate sub-networks that receive as input the time series itself and a representation of the persistent homology for the zeroth and first dimensions. We give a mathematical derivation for most of the hyper-parameters. For validation, numerical experiments were performed on sensor data from four power plants of the same construction type.
+In this paper, we use topological data analysis techniques to construct a suitable neural network classifier for the task of learning sensor signals of entire power plants according to their reference designation system. We use representations of persistence diagrams to derive necessary preprocessing steps and visualize the large amounts of data. We derive architectures with deep one-dimensional convolutional layers combined with stacked long short-term memories as residual networks suitable for processing the persistence features. We combine three separate sub-networks, obtaining as input the time series itself and a representation of the persistent homology for the zeroth and first dimension. We give a mathematical derivation for most of the used hyper-parameters. For validation, numerical experiments were performed with sensor data from four power plants of the same construction type.
 
-**Keywords:** Time series analysis · Persistent homology · Signal processing · Power plants · Geometric embeddings.
+**Keywords:** Power Plants · Time Series Analysis · Signal processing · Geometric embeddings · Persistent homology · Topological data analysis.
 
 + [This is the link to the arxiv article.]()
 
