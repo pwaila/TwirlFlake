@@ -7,7 +7,7 @@ In this paper, we use topological data analysis techniques to construct a suitab
 **Keywords:** Power Plants · Time Series Analysis · Signal processing · Geometric embeddings · Persistent homology · Topological data analysis.
 
 + [This is the link to the arxiv article.](https://arxiv.org/abs/2106.02493)
-+ [This is the link to the presentation hold at ML4ITS within the ECMLPKDD.](https://arxiv.org/abs/2106.02493)
++ [This is the link to the presentation hold at ML4ITS within the ECMLPKDD.](https://github.com/karhunenloeve/TwirlFlake/beamer.pdf)
 
 # Contents
 1. [Time Series Helper `timeSeriesHelper.py`](#timeSeriesHelper)
