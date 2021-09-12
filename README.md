@@ -8,7 +8,7 @@ In this paper, we use topological data analysis techniques to construct a suitab
 
 + [This is the link to the arxiv article.](https://arxiv.org/abs/2106.02493)
 + [This is the link to the presentation hold at ML4ITS within the ECMLPKDD.](https://karhunenloeve.github.io/TwirlFlake/beamer.pdf)
-+ [This is the link to the transcript of the talk given at ML4ITS.](https://karhunenloeve.github.io/TwirlFlake/transcript.md)
++ [This is the link to the transcript of the talk given at ML4ITS.](https://karhunenloeve.github.io/TwirlFlake/transcript)
 
 # Contents
 1. [Time Series Helper `timeSeriesHelper.py`](#timeSeriesHelper)
