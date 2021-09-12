@@ -1,4 +1,4 @@
-1. I would like first of all to thank you for having me speak in front of you today. My name is Luciano Melodia and today I am talking about homological analysis of time series data from power plants.
+1. I would like first of all to thank you for having me speak in front of you today. My name is Luciano Melodia and I am going to talk about homological analysis of time series data from power plants.
 
 2. I belong to the Friedrich-Alexander University Erlangen-Nuremberg and I am doing my PhD under the professorship of evolutionary data management. Our project that I am presenting today is a cooperation of our Chair of Informatics 6, i6 for short, and Siemens Energy, who kindly provided the power plant data.
 
@@ -6,4 +6,8 @@
 
 4. Let's start with the classification of power plant sensor data.
 
-5. Here you can see the components of the labeling system. First of all, the overall plant is described by a letter or a number. The same procedure is used to code the functional units that form a related group of components within a power plant and describe them by means of an optional number, three letters and two additional numbers that enumerate the functional units. Aggregates are smaller subgroups of functional units. Thus, a hierarchical structure is used to encode the architecture of a power plant into the labels. Finally, two letters and two numbers are used to encode the actual unit to which the sensor is attached.
+5. Here you can see the components of the labeling system. First of all, the overall plant is described by a letter or a number. The same procedure is used to code the functional units that form a related group of components within a power plant and describe them by means of an optional number, three letters and two additional numbers that enumerate the functional units. Aggregates are smaller subgroups of functional units. Thus, a hierarchical structure is used to encode the architecture of a power plant into the labels. Finally, two letters and two numbers are used to encode the actual unit to which the sensor is attached. Let me illustrate this with an example. Here the power plant block is coded with the number one. The functional unit is coded as main group 2L, which means the second steam, water and gas circuit. A is the feedwater system and C is the feedwater pump. Lastly, the numbers 0 and 3 describe that it is the third feedwater pump of the power plant. Analogous is done with the aggregates and operating resources.
+
+6. Before we come to the theoretical foundation of our approach I would like to remind you of the so-called manifold assumption. This states that we may assume a one-dimensional, possibly smooth manifold underlying our set of points, which forms the time series for a sensor. Of course, this manifold would be homeomorphic to the realaxis and thus relatively boring with respect to homological investigations. Therefore, we embed the points in a higher-dimensional object whose homological properties encode certain properties of the manifold on which we have conjectured the data.
+
+7. 
